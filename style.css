@@ -108,6 +108,16 @@ body {
     height: 80vh;
     margin: 0 auto;
   }
+  body {
+    align-items: center;
+    background-color: var(--gray-max);
+    color: var(--white);
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: var(--paragraph);
+    justify-content: center;
+    min-height: 100vh;
+  }
 }
 
 @media screen and (min-width: 1020px) {
